@@ -1,6 +1,59 @@
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
+# Numerous always-ignore extensions
+*.bak
+*.cvs
+*.db
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.zip
+
+# Ignore all files and directories starting with . or ~ or ._ or ending with ~
+.*
+~*
+*~
+._*
+# but track
+!.babelrc.js
+!.browserslist
+!.editorconfig
+!.gitattributes
+!.github
+!.gitignore
+
+# Ignore all files with .lock extentions
+*.lock
+# but track
+!composer.lock
+
+# OS or Editor files and folders
+*.code-workspace
+*.elc
+*.esproj
+*.komodoproject
+*.sublime*
+*.tmproj*
+
+# Dependencies
+bower_components
+node_modules
+/vendor/
+
+# Other Understrap specific files and directories
+phpcs.xml
+dist/
+dist-product/
+**/img
+
+src/mcall
+
+
+
+
 # Core
 #
 # Note: if you want to stage/commit WP core files
