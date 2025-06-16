@@ -6,13 +6,16 @@
 $purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
 $blue: #4a4c9a;
 $red: #e40030;
+$gray-100: #8f847f;
+$black: #363839;
+$white: #fff;
+$body_color: #5b5651;
+
 $primary: $red;
 $secondary: $blue; // Once we've changed the value, we'll also make it the primary brand color.
 
-
-
-$body-color: $blue;
-$body-bg: $blue;
+$body-color: $body_color;
+$body-bg: $white;
 
 
 $link-color: $red;
